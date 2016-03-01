@@ -1,0 +1,67 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>Diana's DBC Blog</title>
+    </head>
+    <blog>
+        <h1>Get Dressed in HTML, but Style the Look With Accessories in CSS</h1>
+        <h2>A quick primer on when and how to spruce up your web-pages using two tools that zero in on specific content.</h2>
+        <img src="http://pixel.nymag.com/imgs/fashion/daily/2016/02/18/koo-street-style-0218-lede.w600.h400.jpg" />
+        <p>
+        
+
+What are the best practices associated with using classes vs. ids? <br>
+
+Hello non-technical friend, I'm going to teach you all about two tools in web development called "classes" and ids".<br><p>
+
+First and Foremost, they're used in CSS (a fancy acronym for "Cascading Style Sheets"). CSS is a mark-up language that is used to style and spruce up  the front-end of the web-pages that you see on your browsers.<br><p>
+
+So there's a bunch of code on the underbelly of the webpages you see, that tell the browser how to present your webpage. Some code tells your browser to show a picture, other code tells your browser to show text and other code leads to a link. Every single thing you see is communicated to your browser through code. Think of your facebook page, every single type of content, (text, photo, video, links), are made up of code on that underbelly page.<p>
+
+But what if you want to do something similar to a few of the elements on that page? Without having to alter the code of every single paragraph, or every single video, or every single link, or every single photo? That's where "classes" and "IDs" come in handy. <p>
+
+Let's say you have a sentence. This is how the code of that sentence would look on that underbelly code page. <p>
+
+<!--<p>Facebook is a cool app.</p>-->
+
+The "p" stands for "paragraph" and swaps around most of the text you see on webapges. That is what the code would like in the HTML file. (HTML is CSS's sister mark-up language that is in charge of dictating the content of the webpage.) <p>
+
+Let's say we wanted to change the font-color of a few paragraphs to blue. We would put up a red flag, of sorts, in the HTML file, and then in a corresponding CSS file that we can link to, we'll use CSS code to signal to the browser to make the font-color of the paragraph blue. So we indicate what the content will be in HTML, and then we style in CSS. It's like putting on a dress in one bedroom, but then sprucing up the outfit with accessories in another room.<p>
+
+Here's how you put up that red flag in the HMTL file: by giving it either a "class" or "ID" selector.<p>
+
+CLASS SELECTOR: 
+<!--<p class="standout">Facebook is a cool app.</p> `-->
+
+ID SELECTOR: 
+<!--<p id="standout">Facebook is a cool app.</p> -->
+
+<p>
+They  have similar syntax. We created whatever keyword we wanted, here we use "standout", that we'll use in the CSS file to instruct the styling. The difference between the class and ID selector is that the class selector is used if you plan on having several elements that will likely require the same style. In our example, we're anticipating that we're going to want to change the font-color of a few of our paragraphs. <p>
+
+The "ID" selector is for the one-off's...the instances where you only want to make bold one word, or italicize one word, or change the background-color of one element. Then you use the id selector.
+<p>
+This is what you do in the accompanying CSS file (the styling room) to tell the browser what style to give the element. <p>
+
+CLASS SELECTOR:
+<p>
+.standout {
+ font-color: blue
+}
+<p>
+ID SELECTOR:
+<p>
+#standout {
+font-color: blue
+}
+<p>
+The class selector takes a period (.) before the keyword, and the ID selector takes a hashtag (#) before the keyword. In between two brackets, write your property:value; combination, as seen in the example, and you've styled your HTML document. Now, anytime you want a paragraph to be blue, just go in HTML, and plop in the class="standout" selector. And if you want to emphasize one element, you use the ID selector, to zero in on that one element.
+
+        </p>
+   
+        </blog>
+
+    
+</html>
+
+	 
