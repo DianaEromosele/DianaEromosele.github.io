@@ -1,0 +1,56 @@
+#navbar {
+    font-family: Georgia, serif;
+    /*"Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;*/
+    font-weight: normal;
+    /*color: #010101;*/
+    /*background-color: #cccccc;*/
+    text-align: center;
+    
+}
+
+#topsite {
+    display: inline;
+    position: static;
+}
+
+li {
+    display: inline;
+    font-size: 18px;
+}
+
+#name {
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    /*Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;*/
+    font-weight: bold;
+    color: #7d9e9f;
+    font-size: 3em;
+    margin: -5px 5px 5px 5px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: #7c7c7c;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #7c7c7c;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #491504;
+}
+
+a:active {
+    text-decoration: underline;
+     color: #491504;
+}
+
+.nav_divider {
+      font-weight: bold;
+      color: #63032e;
+      /*color: #0091a1;*/
+    
+}
