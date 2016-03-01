@@ -10,6 +10,7 @@ What did you learn about CSS positioning?
 I used the "width" property to extend my main photo, the display property and the "static" value to position other elements.
 Positioning is a crucial part of the layout. 
 
+I couldn't get the stylesheet to load properly for my blog index site, but I plan to speak with an instructor during office hours for that. The index for my main site looks fine.
 
 What aspects of your design did you find easiest to implement? What was most difficult?
 
