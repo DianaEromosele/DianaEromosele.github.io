@@ -6,8 +6,7 @@
 .header_and_buttons {
     display: inline;
     /*padding-left: 20px;*/
-    
-    
+ 
 }
 
 #fb_logo {
@@ -15,12 +14,15 @@
     width: 4%;
     float: right;
     display: inline;
+    margin-top: 2px;
+    margin-right: 12px;
 }
 
 #github_logo {
     width: 9%;
     float: right;
     display: inline;
+    margin-top: 2px;
 }
 
 #twitter_logo {
@@ -28,11 +30,14 @@
     height: 25px;
     float: right;
     display: inline;
+    padding-top: 5px;
+    margin-top: 2px;
 }
 
 
 #headline {
-    font-family: Century Gothic, sans-serif;
+    /*font-family: Century Gothic, sans-serif;*/
+    font-family: ‘Times New Roman’, Times, serif;
     font-size: 50px;
     color: #618985;
     float: center;
