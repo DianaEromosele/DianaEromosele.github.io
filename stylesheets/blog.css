@@ -1,6 +1,53 @@
+#head_and_logos {
+    display: 
+    
+}
+
+.header_and_buttons {
+    display: inline;
+    /*padding-left: 20px;*/
+    
+    
+}
+
+#fb_logo {
+    height: 40px;
+    width: 4%;
+    float: right;
+    display: inline;
+}
+
+#github_logo {
+    width: 9%;
+    float: right;
+    display: inline;
+}
+
+#twitter_logo {
+    width: 4%;
+    height: 25px;
+    float: right;
+    display: inline;
+}
+
+
+#headline {
+    font-family: Century Gothic, sans-serif;
+    font-size: 50px;
+    color: #618985;
+    float: center;
+}
+
+img {
+    height: 175%;
+    width: 100%;
+    
+    
+}
+
 td {
     width: 33%;
-    
+    height: 200px;
 }
 
 #navbar {
@@ -58,4 +105,16 @@ a:active {
       color: #63032e;
       /*color: #0091a1;*/
     
+}
+
+h2 {
+    font-family: Century Gothic, sans-serif;
+}
+
+#footer_text {
+    font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+    font-size: 25px;
+    font-weight: bold; 
+    float: center;
+    color: #618985;
 }
