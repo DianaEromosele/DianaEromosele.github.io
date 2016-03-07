@@ -36,11 +36,11 @@
 
 
 #headline {
-    /*font-family: Century Gothic, sans-serif;*/
-    font-family: ‘Times New Roman’, Times, serif;
-    font-size: 50px;
+    font-family: Century Gothic, sans-serif;
+    font-size: 60px;
     color: #618985;
     float: center;
+    margin-left: 10px;
 }
 
 img {
@@ -114,6 +114,7 @@ a:active {
 
 h2 {
     font-family: Century Gothic, sans-serif;
+    margin-left: 5px;
 }
 
 #footer_text {
