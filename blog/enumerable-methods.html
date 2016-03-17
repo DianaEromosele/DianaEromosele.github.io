@@ -1,0 +1,58 @@
+<!DOCTYPE hmtl>
+<html>
+   <head>
+        <title>Diana's DBC Blog</title>
+    </head>
+    <blog>
+        <h1>Let's Map Out this Enumerable#Map Method!</h1>
+        <h2>It works like the word (and the method) "each", in that it does something to each of the elements in a holding object. </h2>
+        <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/527109_10100186937138284_544242291_n.jpg?oh=f0adca5bcff67796f085aff0318cd86d&oe=574DC5E7" />
+        <p>The "Map" enumerable method is a wonderful iterative method that allows you to execute a block of code for each object in an enumerator. 
+         <p>
+        An enumerator is an object, such as an array, hash or string that is capable of being iterated through. 
+         <p>
+        The "map" method is similar to the "each" method, in that, again, it allows you to address every piece of element in a container.
+         <p>
+        Take the example below that I pulled from Ruby Docs: 
+         <p>
+        We start with an array filled with four words.. Let's say we want to add love to each of those words. We use the "Map" method, followed by a block of code, to signal that we want to do that.
+        <p>
+        ````
+        <p>
+        ["I", "You", "God", "We"].map { |word| word + "love" }     
+        <p>
+         #=> ["I love", "You love", "God love", "We love"]
+        ````
+        <p>
+        It's important to remember that the result is an array, filled with elements that are now altered to include the block of code executed. It 
+        <p>
+        Keep in mind that it will always return an array, even if your initial enumerator is not an array. let's start with a hash, as follows:
+        <p>
+        ````
+        family = {}
+family["diana"] = "dirrtydee"
+family["Esi"] = "babygirl"
+family["Liz"] = "Wizzie"
+
+````
+<p>
+Then we'll iterate through the hash, so that the vaulue is all upperase. 
+<p>
+````
+family.map { |key, value| 
+    p value.upcase
+}
+    => ["DIRRTYDEE", "BABYGIRL", "WIZZIE"]
+
+    ````
+    <p>
+    Notice how we started with a hash, but the results, the keys in uppercase, is in an array. That's the in's and out's of the "map" method.
+        
+        
+        </p>
+      
+     
+        
+    </blog>
+
+</html>
