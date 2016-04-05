@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+       Diana Eromosele DBC Cheat Sheet
+    </title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/cheatsheet.css"/>
+  </head>
+<body>
+    <header id="topsite">
+      
+      <img id="main_photo" src="../imgs/cheat_sheet_main_photo_4.jpg" />
+      
+      
+     <!--<nav id="navbar">-->
+     <!-- <ul>-->
+     <!--    <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">software i've built <text class="nav_divider">|</text></a></li>-->
+     <!--     <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">my code lives on github street <text class="nav_divider">|</text></a></li>-->
+     <!--   <li><a href="http://www.devbootcamp.com">technologies i've mastered</a> <text class="nav_divider">|</text></li>-->
+     <!--   <li><a href="www.devbootcamp.com">my software engineering journey <text class="nav_divider">|</text></a></li>-->
+     <!--   <li><a href="mailto:diana.ozemebhoya@gmail.com">let's e-mail</a></li>-->
+        
+     <!-- </ul>-->
+     <!-- </nav>-->
+      
+    </header>
+    
+    
+ <section>
+ <h1>Ruby's Sorting Method</h1>
+ 
+ <h2>In Ascending Order</h2>
+ 
+ <article>
+    <pre class="prettyprint lang-ruby">
+      books.sort! { |firstBook, secondBook|
+        firstBook <=> secongBook }
+        </pre></article>
+
+<h2>In Descending Order</h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+ books.sort! { |firstBook, secondBook|
+        secondBook <=> firstBook }
+        </pre></article>
+        
+      </section>
+
+<section>
+    <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/421634_10100186920820984_945416641_n.jpg?oh=5f48da1948a6d2e9123e3b2d9a7760b6&oe=5776400D" />
+    
+</section>
+
+ <section>
+ <h1>3 Ways to Create an Object in Javascript</h1>
+ 
+ <h2>1) Object Literal</h2>
+ 
+ <article>
+    <pre class="prettyprint lang-ruby">
+      var person = {
+  firstName: "John",
+  lastName: "Doe",
+  age:50,
+  eyeColor:"blue"};
+        </pre></article>
+
+<h2>2) With the keyword, "New"</h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+ var person = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+        
+        </pre></article>
+        
+        <h2>3)Using an Object Constructor</h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+ function person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+var myFather = new person("John", "Doe", 50, "blue");
+var myMother = new person("Sally", "Rally", 48, "green");
+
+        
+        </pre></article>
+        
+      </section>
+
+
+    <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/207842_10100186921833954_509166612_n.jpg?oh=0e52603d0e78bb84bb91d3075fefaf50&oe=57861720" />
+    
+    
+ <section>
+ <h1>Iterating Over a Hash in Ruby</h1>
+ 
+ <article>
+    <pre class="prettyprint lang-ruby">
+    restaurant_menu = {
+  "noodles" => 4,
+  "soup" => 3
+}
+
+restaurant_menu.each do |item, price|
+  puts "#{item}: #{price}"
+end
+        </pre></article>
+        
+
+<img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/l/t1.0-9/395237_10100186938026504_1383703142_n.jpg?oh=43e81bd0c0cb8236f072eeb2f417829e&oe=57869D3D" />
+    
+        
+        
+<section>
+<h1>Javascript's "Switch" Statement </h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+ 
+** SWITCH STATEMENT
+
+switch (/*Some expression*/) {
+    case 'option1':
+        // Do something
+        break;
+    case 'option2':
+        // Do something else
+        break;
+    case 'option3':
+        // Do a third thing
+        break;
+    default:
+       // Do yet another thing
+}
+        
+        </pre></article></section>
+        
+        <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/263877_10100186937816924_535438024_n.jpg?oh=c12bd0c88e03a90808c95f5c250485fa&oe=57859F81" />
+    
+    
+    <section>
+<h1>Javascript's "For" Loop </h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+
+for (var x = 4; x < end; x++) {
+  // do something
+}
+
+    
+     </pre></article></section>
+     
+     <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/644101_10100186938066424_1038308438_n.jpg?oh=9a6f86bb0c5ba4725c52c2ecc30986d4&oe=577E4A0E" />
+        
+        
+        <section>
+ <h1>4 Kinds of Loops in Ruby</h1>
+ 
+ <h2>1)The "Until" Loop</h2>
+ 
+ <article>
+    <pre class="prettyprint lang-ruby">
+  counter = 1
+
+until counter > 10
+puts counter
+ counter += 1
+ end
+  
+        </pre></article>
+
+<h2>2) The "Loop" Method</h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+ var person = new Object();
+i = 20
+loop do
+  i -= 1
+  puts "#{i}"
+break if i <= 0
+end
+        
+        </pre></article>
+        
+        <h2>3)The "While" Loop</h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+counter = 1
+while counter < 11
+  puts counter
+  counter = counter + 1 or counter += 1
+end 
+        </pre></article>
+        
+        <h2>4)The "Times" Loop</h2>
+
+<article>
+<pre class="prettyprint lang-ruby">
+    
+30.times {
+  puts "I love this blog!" # do something
+}
+        </pre></article>
+        
+      </section>
+
+        
+         <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/644101_10100186938066424_1038308438_n.jpg?oh=9a6f86bb0c5ba4725c52c2ecc30986d4&oe=577E4A0E" />
+        
+        
+        <section>
+        <h2>More Stuff Coming!</h2>
+
+<article>
+      <div class="header_and_buttons">
+          <a href="http://www.facebook.com"> <img id="fb_logo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPm4Nex64I_RjBB4geLp7vwUBORfB_qEbCUuHoaBojVaRsv9iW" /> </a>
+            <a href="https://github.com/DianaEromosele"> <img id="github_logo" src="http://anywher.net/wp-content/uploads/2014/11/logo-color_github.png" /> </a>
+              <a href="http://www.twitter.com/lecturestobeats"> <img id="twitter_logo" src="https://g.twimg.com/Twitter_logo_blue.png" /> </a>
+      </div>
+
+        </article>
+        
+      </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--<h1 id="name">Diana Eromosele's Cheat Sheet for Ruby and Javascript</h1>-->
+    <!--<img id="main_photo" src="./imgs/diana_coding_site_4.jpg" />-->
+    <!--<img id="main_photo" src="./imgs/diana_coding_site_2.jpg" />-->
+   <!--<img id="main_photo" src="./imgs/diana_coding_site.jpg" />-->
+ 
+    
+  
+  </body>
+</html>
