@@ -1,29 +1,50 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Diana's DBC Blog</title>
-    </head>
-    <blog>
-        <h1>Arrays Are For Single Objects, Hashes Are Pairs That Are Married</h1>
-        <h2>They're both containers filled with intel, but the intel is stored and called upon in different ways.</h2>
-        <img src="https://hard2knockshoppe.files.wordpress.com/2012/09/beyonce-jay-z-michelle-barack-obama.jpg" />
-        <p>
+  <head>
+    <title>
+       Arrays and Hashes Technical Blog
+    </title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/DBC_blog_template.css"/>
+  </head>
+<body>
+    <header>
+        
+        
+         <img id="main_photo" src="../imgs/array_hashes.jpg" />
+         
+      
+
+    </header>
+    
+    
+ <section>
+     
+            
+        <h2>They're both containers filled with intel, but the intel is stored and accessed in different ways.</h2>
+        <h3>Diana Ozemebhoya Eromosele | February 2016</h3>
+        
+<article>
             
             Think of an "array" as a classroom that contains individuals who are single, and hashes as classrooms that contain pairs who are married--inextricably linked.
-            <p>
-            The array classroom can hold a variety of objects such as string, integers, other arrays and even hashes. Each of those objects (or single person), is in a specific spot. That's how you call on that single person. Diana is in slot 4, Mary is in slot 2, Eric is in slot 10, and so on and so forth. Single people can leave the array, or come back into the array, but even as all of this transition happens, objects are moved from slot to slot.   <p>
-            This is how an array looks like:  <p>
+           
+            The array classroom can hold a variety of objects such as string, integers, other arrays and even hashes. Each of those objects (or single person), is in a specific spot. That's how you call on that single person. Diana is in slot 4, Mary is in slot 2, Eric is in slot 10, and so on and so forth. Single people can leave the array, or come back into the array, but even as all of this transition happens, objects are moved from slot to slot.  
+            This is how an array looks like:  </article>
             
-            ```
+            <text class="code">
+            <pre class="prettyprint lang-ruby">
+              
             array = ["Diana", 25, "Elizabeth", 2, "Kate", "Prince Charles"]
-            ```
-              <p>
+            
+            </pre></text>
+            <article>
+              
             To retrieve a specific piece of data in an array, it's helpful to know what slot that data is in. In our array above, Elizabeth is in slot 2, (arrays start with the number "0" in the first slot all the way to the left). Calling Elizabeth would look like this: array[2].
             
         
-            In a hash, the classroom has married folk. One person is the key (let's say the husband is), and the other is the value, the wife. You call on the husband, you get the wife. What hashes come together, let no man put asunder (lol). Here is what a hash looks like
-              <p>
-            ````
+            In a hash, the classroom has married folk. One person is the key (let's say the husband is), and the other is the value, the wife. You call on the husband, you get the wife. What hashes come together, let no man put asunder (lol). Here is what a hash looks like </article>
+              
+              <text class="code">
+           <pre class="prettyprint lang-ruby">
             couples = {
             "jay-z": "beyonce",
             "barack":"michelle",
@@ -31,28 +52,57 @@
             "will": "jada",
             "brad": angelina
             }
-            ````
-              <p>
-            If I wanted to call on Beyonce, I would use this syntax: couples["jay-z"]. As you can see, hashes are bit more intuitive, meaning, if you have knowledge about the key, and you know what value is attached to it, then it's as easy as calling on that key. Similar to storing someone's address in a system. To look up Diana's address, call on the Diana key in the "Address" Hash, and that value will pop up. 
+            </pre>
+            </text>
+              <article>
+            If I wanted to call on Beyonce, I would use this syntax: 
+            </article>
+            <text class="code">
+            <pre class="prettyprint lang-ruby">
+            couples["jay-z"]. 
+            </pre>
+         
+            </text>
+           <article>
+            As you can see, hashes are bit more intuitive, meaning, if you have knowledge about the key, and you know what value is attached to it, then it's as easy as calling on that key. Similar to storing someone's address in a system. To look up Diana's address, call on the Diana key in the "Address" Hash, and that value will pop up. 
      
-        </p>
-       
         
-    </blog>
+        
+        </article>
+      </section>
 
-    
+
+             <nav id="navbar">
+      <ul>
+         <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">diana's software portfolio<text class="nav_divider">|</text></a></li>
+          <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">diana's code on github <text class="nav_divider">|</text></a></li>
+        <li><a href="http://www.devbootcamp.com">technologies diana's mastered</a> <text class="nav_divider">|</text></li>
+        <li><a href="www.devbootcamp.com">diana's tech journey <text class="nav_divider">|</text></a></li>
+        <li><a href="mailto:diana.ozemebhoya@gmail.com">e-mail diana</a></li>
+        
+      </ul>
+      </nav>
+
+
+      <div class="social_media_github_buttons">
+          <a href="http://www.facebook.com"> <img id="fb_logo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPm4Nex64I_RjBB4geLp7vwUBORfB_qEbCUuHoaBojVaRsv9iW" /> </a>
+            <a href="https://github.com/DianaEromosele"> <img id="github_logo" src="http://anywher.net/wp-content/uploads/2014/11/logo-color_github.png" /> </a>
+              <a href="http://www.twitter.com/lecturestobeats"> <img id="twitter_logo" src="https://g.twimg.com/Twitter_logo_blue.png" /> </a>
+      </div>
+
+        
+  
+  </body>
 </html>
 
 
-<!--
+<!--It went really well. You get a sense of how many webpage skeletons are similar. The CSS and Javascript bring them to life, and give them interactivity. -->
 
-It went really well. You get a sense of how many webpage skeletons are similar. The CSS and Javascript bring them to life, and give them interactivity. 
+<!--I found wireframing to be very helpful, because I was able to look at the document as a reference of where my elements will be.-->
 
-I found wireframing to be very helpful, because I was able to look at the document as a reference of where my elements will be.
+<!--We wanted to be sure that you communicated where our photo, article, headline, and sidebar widgets would be. -->
 
-We wanted to be sure that you communicated where our photo, article, headline, and sidebar widgets would be. 
-
-I had always bumped into the "div" tags, but learning about what it actually does was new to me. In addition to the best practices of not formatting or styling HTML, and leaving that up to CSS.
--->
+<!--I had always bumped into the "div" tags, but learning about what it actually does was new to me. In addition to the best practices of not formatting or styling HTML, and leaving that up to CSS.-->
+<!---->
 	 
 

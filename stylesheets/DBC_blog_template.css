@@ -24,19 +24,58 @@
     margin-top: 2px;
 }
 
+article {
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.code {
+    color: #C14BD5;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+
+.connection_flow {
+    color: #C14BD5;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+
 .social_media_github_buttons {
     /*display: inline;*/
     /*padding-left: 20px;*/
     /*margin-top: 40px;*/
     display: block;
     margin-left: auto;
+    text-align: center;
     margin-right: auto }
  
-.code {
-    color: #C14BD5;
+
+#number {
+    color: #DC19CD;
      font-size: 20px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+#popwords {
+    color: #DC19CD;
+     font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    /*margin-left: 60px;*/
+    /*margin-right: 60px;*/
+    
 }
 
 
@@ -69,6 +108,15 @@ td {
     border: 0;
 }
 
+
+
+
+
+
+
+
+
+
 body {
     width: 100%;
 }
@@ -94,12 +142,15 @@ h2 {
     
 }
 
-article {
-    font-size: 20px;
+h3 {
+    font-size: 25px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
+    color: #238591     ;
     
 }
+
+
 
 
 li {

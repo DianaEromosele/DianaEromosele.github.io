@@ -7,22 +7,10 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/cheatsheet.css"/>
   </head>
 <body>
-    <header id="topsite">
+    <header>
       
       <img id="main_photo" src="../imgs/cheat_sheet_main_photo_4.jpg" />
-      
-      
-     <!--<nav id="navbar">-->
-     <!-- <ul>-->
-     <!--    <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">software i've built <text class="nav_divider">|</text></a></li>-->
-     <!--     <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">my code lives on github street <text class="nav_divider">|</text></a></li>-->
-     <!--   <li><a href="http://www.devbootcamp.com">technologies i've mastered</a> <text class="nav_divider">|</text></li>-->
-     <!--   <li><a href="www.devbootcamp.com">my software engineering journey <text class="nav_divider">|</text></a></li>-->
-     <!--   <li><a href="mailto:diana.ozemebhoya@gmail.com">let's e-mail</a></li>-->
-        
-     <!-- </ul>-->
-     <!-- </nav>-->
-      
+ 
     </header>
     
     
@@ -31,19 +19,24 @@
  
  <h2>In Ascending Order</h2>
  
+  <text class="code">
  <article>
     <pre class="prettyprint lang-ruby">
       books.sort! { |firstBook, secondBook|
         firstBook <=> secongBook }
-        </pre></article>
+        </pre>
+       
+        </article>
+         </text>
 
 <h2>In Descending Order</h2>
 
+<text class="code">
 <article>
 <pre class="prettyprint lang-ruby">
  books.sort! { |firstBook, secondBook|
         secondBook <=> firstBook }
-        </pre></article>
+        </pre></article></text>
         
       </section>
 
@@ -57,6 +50,7 @@
  
  <h2>1) Object Literal</h2>
  
+ <text class="code">
  <article>
     <pre class="prettyprint lang-ruby">
       var person = {
@@ -64,11 +58,11 @@
   lastName: "Doe",
   age:50,
   eyeColor:"blue"};
-        </pre></article>
+        </pre></article></text>
 
 <h2>2) With the keyword, "New"</h2>
 
-<article>
+<text class="code"><article>
 <pre class="prettyprint lang-ruby">
     
  var person = new Object();
@@ -77,10 +71,11 @@ person.lastName = "Doe";
 person.age = 50;
 person.eyeColor = "blue";
         
-        </pre></article>
+        </pre></article></text>
         
         <h2>3)Using an Object Constructor</h2>
-
+        
+<text class="code">
 <article>
 <pre class="prettyprint lang-ruby">
     
@@ -94,7 +89,7 @@ var myFather = new person("John", "Doe", 50, "blue");
 var myMother = new person("Sally", "Rally", 48, "green");
 
         
-        </pre></article>
+        </pre></article></text>
         
       </section>
 
@@ -105,7 +100,7 @@ var myMother = new person("Sally", "Rally", 48, "green");
  <section>
  <h1>Iterating Over a Hash in Ruby</h1>
  
- <article>
+ <text class="code"><article>
     <pre class="prettyprint lang-ruby">
     restaurant_menu = {
   "noodles" => 4,
@@ -115,7 +110,7 @@ var myMother = new person("Sally", "Rally", 48, "green");
 restaurant_menu.each do |item, price|
   puts "#{item}: #{price}"
 end
-        </pre></article>
+        </pre></article></text>
         
 
 <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/l/t1.0-9/395237_10100186938026504_1383703142_n.jpg?oh=43e81bd0c0cb8236f072eeb2f417829e&oe=57869D3D" />
@@ -125,7 +120,7 @@ end
 <section>
 <h1>Javascript's "Switch" Statement </h2>
 
-<article>
+<text class="code"><article>
 <pre class="prettyprint lang-ruby">
     
  
@@ -145,7 +140,7 @@ switch (/*Some expression*/) {
        // Do yet another thing
 }
         
-        </pre></article></section>
+        </pre></article></text></section>
         
         <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/263877_10100186937816924_535438024_n.jpg?oh=c12bd0c88e03a90808c95f5c250485fa&oe=57859F81" />
     
@@ -153,7 +148,7 @@ switch (/*Some expression*/) {
     <section>
 <h1>Javascript's "For" Loop </h2>
 
-<article>
+<text class="code">
 <pre class="prettyprint lang-ruby">
     
 
@@ -162,7 +157,7 @@ for (var x = 4; x < end; x++) {
 }
 
     
-     </pre></article></section>
+     </pre></text></section>
      
      <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/644101_10100186938066424_1038308438_n.jpg?oh=9a6f86bb0c5ba4725c52c2ecc30986d4&oe=577E4A0E" />
         
@@ -170,9 +165,10 @@ for (var x = 4; x < end; x++) {
         <section>
  <h1>4 Kinds of Loops in Ruby</h1>
  
+ 
  <h2>1)The "Until" Loop</h2>
  
- <article>
+ <text class="code">
     <pre class="prettyprint lang-ruby">
   counter = 1
 
@@ -181,14 +177,14 @@ puts counter
  counter += 1
  end
   
-        </pre></article>
+        </pre></text>
 
 <h2>2) The "Loop" Method</h2>
 
-<article>
+<text class="code">
+
 <pre class="prettyprint lang-ruby">
-    
- var person = new Object();
+
 i = 20
 loop do
   i -= 1
@@ -196,11 +192,11 @@ loop do
 break if i <= 0
 end
         
-        </pre></article>
+        </pre></text>
         
         <h2>3)The "While" Loop</h2>
 
-<article>
+<text class="code">
 <pre class="prettyprint lang-ruby">
     
 counter = 1
@@ -208,29 +204,100 @@ while counter < 11
   puts counter
   counter = counter + 1 or counter += 1
 end 
-        </pre></article>
+        </pre></text>
         
         <h2>4)The "Times" Loop</h2>
 
-<article>
+<text class="code">
+
 <pre class="prettyprint lang-ruby">
     
 30.times {
   puts "I love this blog!" # do something
 }
-        </pre></article>
+        </pre></text>
         
       </section>
 
         
-         <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/644101_10100186938066424_1038308438_n.jpg?oh=9a6f86bb0c5ba4725c52c2ecc30986d4&oe=577E4A0E" />
+         <img id="main_photo" src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/386561_885602363614_894204558_n.jpg?oh=3803ac554293509714f2a1479bbd1919&oe=57778A9B" />
         
-        
-        <section>
-        <h2>More Stuff Coming!</h2>
+         <section>
+<h1>CSS Classes and IDs </h2>
 
 <article>
-      <div class="header_and_buttons">
+
+
+<h2> 1) Element Selector</h2>
+
+<text class="code"><pre class="prettyprint lang-ruby">
+h2 { 
+    color: red;
+    text-align: center;
+}
+</pre></text>
+
+<h2> 2) Class Selector</h2>
+
+In HTML file, write this:
+
+<text class="code"><pre class="prettyprint lang-ruby">
+    
+class="social_media_github_buttons"
+         
+
+</pre></text>
+
+In CSS stylesheet file, write this: 
+
+<text class="code"><pre class="prettyprint lang-ruby">
+    
+.social_media_github_buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+     </pre></text>
+     
+     
+     <h2> 3) ID Selector</h2>
+
+    In HTML file, write: 
+    
+    <text class="code"><pre class="prettyprint lang-ruby">
+    
+    id="main_photo" 
+    </pre></text>
+    
+    In CSS Stylesheet, write:
+    
+    <text class="code"><pre class="prettyprint lang-ruby">
+#main_photo {
+    width: 100%;
+    height: 685px;
+}
+</pre></text>
+
+     </article></section>
+        
+        
+         <img id="main_photo" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/381250_10100186919753124_1784399763_n.jpg?oh=7f923ddf33b431609676dbc0d86d4ce8&oe=57B7D3D5" />
+        <section>
+        <h2>More Stuff Coming!</h2>
+        
+             <nav id="navbar">
+      <ul>
+         <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">diana's software portfolio<text class="nav_divider">|</text></a></li>
+          <li><a href="https://github.com/DianaEromosele/DianaEromosele.github.io">diana's code lives on github street <text class="nav_divider">|</text></a></li>
+        <li><a href="http://www.devbootcamp.com">technologies i've mastered</a> <text class="nav_divider">|</text></li>
+        <li><a href="www.devbootcamp.com">diana's software engineering journey <text class="nav_divider">|</text></a></li>
+        <li><a href="mailto:diana.ozemebhoya@gmail.com">e-mail diana</a></li>
+        
+      </ul>
+      </nav>
+
+<article>
+      <div class="social_media_github_buttons">
           <a href="http://www.facebook.com"> <img id="fb_logo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPm4Nex64I_RjBB4geLp7vwUBORfB_qEbCUuHoaBojVaRsv9iW" /> </a>
             <a href="https://github.com/DianaEromosele"> <img id="github_logo" src="http://anywher.net/wp-content/uploads/2014/11/logo-color_github.png" /> </a>
               <a href="http://www.twitter.com/lecturestobeats"> <img id="twitter_logo" src="https://g.twimg.com/Twitter_logo_blue.png" /> </a>
