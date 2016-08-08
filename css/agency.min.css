@@ -45,6 +45,8 @@
 
  	.img-centered{margin:0 auto}.bg-light-gray{background-color:#eee}
 
+
+
  	.bg-darkest-gray {
  		background-color:#222 }
 
@@ -89,7 +91,8 @@
  		.btn-xl.active,.btn-xl:active,.btn-xl:focus,.btn-xl:hover,.open .dropdown-toggle.btn-xl {
  			color:#fff; 
 
- 			background-color:#fec503;
+ 			/*background-color:#fec503;*/
+ 			background-color: #F39C12  ;
  			/*background-color: #AED6F1;*/
  			border-color:#f6bf01 
  		}
@@ -109,14 +112,15 @@
  			border-color:transparent
  		}
 
-/*///////logo to go home in upper left corner///*/
+/*///////the "diana" home-logo in the upper left corner///*/
  .navbar-custom .navbar-brand {
  	/*color:#fed136;*/
  	/*color: white;*/
  	/*color: #D0ECE7  ;*/
- 	color: #FEF5E7   ;
+ 	/*color: #FEF5E7   ;*/
  	/*color: #E5E8E8    ;*/
  	/*color: #F0B27A;*/
+ 	color: #F6DDCC    ;
  	/*font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive*/
  	font-family: 'Josefin Sans', sans-serif;
  	text-align: center;
@@ -125,7 +129,7 @@
  .navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover {
 
  	/*color:#fec503*/
- 	color: white;
+ 	color: #FDEBD0  ;
  	}
 
  .navbar-custom .nav li a,.navbar-custom .navbar-toggle {
@@ -140,7 +144,9 @@
  }
 
  .navbar-custom .navbar-toggle {
- 	background-color:#fed136;
+ 	/*background-color:#fed136;*/
+ 	background-color: #F39C12  
+;
  	border-color:#fed136;
  	font-size:12px
  }
@@ -225,14 +231,14 @@
 /*////////////MOBILE SITE///////*/
 
 
-/*///////I build web and mobile apps..////*/
+/*///////I'm a Software Engineer who enjoys creating..////*/
  header .intro-text .intro-lead-in {
  	/*font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
  	
  	/*font-family: 'Amiko', sans-serif;*/
  	font-family: 'Josefin Sans', sans-serif;
  	font-style: normal;
- 	font-size: 26px;
+ 	font-size: 23px;
  	line-height: 22px;
  	margin-bottom: 25px
  }
@@ -261,7 +267,7 @@
 	}
 
 
-	/*///I build web and mobile apps...//*/
+	/*///I'm a Software Engineer who enjoys creating...//*/
 	header .intro-text .intro-lead-in {
 
 	/*font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
@@ -274,6 +280,29 @@
 	line-height:40px;
 	margin-bottom:25px
 	}
+
+
+
+
+
+	.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 /*///////////Diana Ozemebhoya/////*/
 	header .intro-text .intro-heading {
@@ -463,6 +492,7 @@
 		margin-left: 22px;
 		margin-right: 10px;
 	}
+
 
 	.img-circle-3 {
 		margin-top: 24px;
@@ -719,14 +749,20 @@
 
 			ul.social-buttons{margin-bottom:0}
 
+/*////The social-media icons in the "Contact Me" Section*/
+		.social-icon {
+			margin-left: 3px;
+			margin-top: 10px;
+		}
 
+/*////The social-media circles in the "Contact Me" Section*/
 			ul.social-buttons li a {
-				display:block;
+				display: block;
 				margin-left: auto;
     		margin-right: auto;
-				background-color:#222;
-				height:40px;
-				width:40px;
+				background-color: #148F77 ;
+				height:90px;
+				width:90px;
 				border-radius:100%;
 				font-size:20px;
 				line-height:40px;
@@ -755,6 +791,11 @@
 				margin:20px 0 30px;
 				font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 				font-style:italic;
+				color: #148F77;
 				font-size:16px}
 
-			.portfolio-modal .modal-content ul.list-inline{margin-bottom:30px;margin-top:0}.portfolio-modal .modal-content img{margin-bottom:30px}.portfolio-modal .close-modal{position:absolute;width:75px;height:75px;background-color:transparent;top:25px;right:25px;cursor:pointer}.portfolio-modal .close-modal:hover{opacity:.3}.portfolio-modal .close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}.portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}.portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}img::selection{background:0 0}img::-moz-selection{background:0 0}
+			.portfolio-modal .modal-content ul.list-inline{margin-bottom:30px;
+				margin-top:0
+			}
+
+				.portfolio-modal .modal-content img{margin-bottom:30px}.portfolio-modal .close-modal{position:absolute;width:75px;height:75px;background-color:transparent;top:25px;right:25px;cursor:pointer}.portfolio-modal .close-modal:hover{opacity:.3}.portfolio-modal .close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}.portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}.portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}img::selection{background:0 0}img::-moz-selection{background:0 0}
